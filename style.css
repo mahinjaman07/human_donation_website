@@ -1,0 +1,36 @@
+header{
+    width: 1440px;
+    height: 669px;
+    margin: 0% auto;
+    display: grid;
+    grid-template-columns: 5fr 6fr;
+    background-image: url(image/Ellipse\ 257.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.header_content{
+    align-items: left !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;  
+}
+
+.banner_title{
+    width: 70%;
+    font-size: 75px;
+    font-weight: 900;
+    
+}
+
+
+.banner_image_container{
+    display: flex;
+    align-items: bottom;
+    justify-content: center;
+    background-image: url(image/Ellipse\ 256.png);
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    margin-right: 30px;
+    
+}
